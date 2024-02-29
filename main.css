@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baumans&family=Kanit:wght@500&display=swap');
 * {
@@ -7,7 +8,7 @@
 }
 
 :root {
-    --primary-text-color: #183b56;
+    --primary-text-color: #7b371c;
     --secondary-text-color: #577592;
     --accent-color: #2294ed;
     --accent-color-dark: #1d69a3;
@@ -44,7 +45,7 @@ ul {
 }
 
 nav {
-    background-color: rgb(157, 168, 223);
+    background-color: rgb(223, 199, 157);
     box-shadow: 6px 0 6px rgb(83, 54, 119);
     position: fixed;
     top: 0;
@@ -62,7 +63,8 @@ nav {
 }
 
 .company-logo img {
-    width: 170px;
+    width: 160px;
+    height:90px;
     position: relative;
     top:0;
     left:5px;
@@ -96,6 +98,9 @@ nav {
 .search-bar {
     height: 50px;
     gap: 8px;
+    position: relative;
+    top:160px;
+    justify-content: center;
 }
 
 .news-input {
@@ -109,7 +114,7 @@ nav {
 }
 
 .search-button {
-    background-color: rgb(157, 168, 223);
+    background-color: rgb(223, 200, 157);
     color: white;
     border: none;
     border-radius: 50px;
@@ -122,10 +127,10 @@ nav {
 }
 
 .search-button:hover {
-    background-color: rgb(164, 16, 175);
+    background-color: rgb(175, 42, 16);
 }
 .login{
-    background-color: rgb(42, 46, 64);
+    background-color:rgb(233, 71, 1);
     color: white;
     padding: 8px 24px;
     border: none;
@@ -192,4 +197,8 @@ main {
     font-size:80px;
     position: relative;
     top:-5px;
+}
+#buspic{
+    height:60px;
+    border-radius: 50px;;
 }
