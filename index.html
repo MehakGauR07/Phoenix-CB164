@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus tracking</title>
-    <link href='main.css' rel="stylesheet">
+    <link href='test.css' rel="stylesheet">
 </head>
 <body>
     
@@ -18,28 +18,26 @@
             
             <a href="index.html" onclick="reload()" class="company-logo">
                 
-                <img src="https://i.pinimg.com/originals/2f/fc/b9/2ffcb91460d1d4b0d2ef8b3424b30779.png" alt = 'company logo' id="logo">
+                <img src="images.jpeg/Screenshot 2023-10-31 113450.png" alt = 'company logo' id="logo">
             </a>
-            <h1><li class="hover-link nav-item" id="bustrack" >Bus Tracking Service</li></h1>
+            <h1><li class="hover-link nav-item" id="bustrack" ><img id = 'buspic' src = "images.jpeg/Screenshot 2024-03-01 005759.png">     Bus Tracking Service</li></h1>
+            
         
             <div class="login">
                <a href="login.html"> <button id="login" class="login">Login</button></a>
             </div>
-        </div>
-    </nav>
-    <main>
-        <div class="cards-container container flex" id="cards-container">
             
         </div>
+    </nav>
+    <div class="search-bar flex">
+        <input  type="text" id="search-text" class="news-input" placeholder="                        Search for Buses !!">    
+        <button id="search-button"  class="search-button"><img class='logoimage' src='images.jpeg/search.png'></button>
+    </div>
+    <main>
+
     </main>
-    <template id="template-card">
-        <div class="card">
-            <div class="card-header">
-                <img src="https://i.pinimg.com/originals/2f/fc/b9/2ffcb91460d1d4b0d2ef8b3424b30779.png" alt="news-image" id="news-img">
-            </div>
-           
-        </div>
-    </template>
+    
+   
 
     <script src="test.js"></script>
 </body>
