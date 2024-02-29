@@ -1,8 +1,8 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background: rgb(104,104,104);
-background: radial-gradient(circle, rgba(104,104,104,1) 0%, rgba(232,135,47,1) 55%);
+    background: #2294ed;
+
 }
 
 .container {
